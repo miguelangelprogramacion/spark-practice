@@ -1,10 +1,5 @@
 package world.we.deserve;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
 import java.util.Arrays;
 
 import org.apache.spark.SparkConf;
@@ -21,10 +16,10 @@ import scala.Tuple2;
  * Word count spark. Taken from "Learning Spark - Lightning-Fast Big Data analysis"
  *
  */
-public class App {
+public class S01_WordCount {
 
-	private static String filein = "/tmp/lorem.in";
-	private static String fileout = "/tmp/count.out";
+	private static String filein = "/home/animamiguel/Desktop/sparkfiles/lorem.in";
+	private static String fileout = "/home/animamiguel/Desktop/sparkfiles/count.out";
 	
 	public static void main(String[] args) {
 		
